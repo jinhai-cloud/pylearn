@@ -5,10 +5,6 @@ build/
 dist/
 wheels/
 *.egg-info
-.coverage
-.coverage.*
-agent_history.gif
-static/browser_history/*.gif
 
 # Virtual environments
 .venv
@@ -21,8 +17,9 @@ venv/
 conf.yaml
 
 .idea/
-.langgraph_api/
 
 # coverage report
+.coverage
+.coverage.*
 coverage.xml
 coverage/
