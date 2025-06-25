@@ -1,0 +1,9 @@
+[project]
+name = "pylearn"
+version = "0.1.0"
+description = "pylearn project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.3.0",
+]
