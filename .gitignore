@@ -17,6 +17,7 @@ venv/
 conf.yaml
 
 .idea/
+.DS_Store
 
 # coverage report
 .coverage
