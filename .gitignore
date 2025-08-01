@@ -19,6 +19,8 @@ conf.yaml
 .idea/
 .DS_Store
 
+.langgraph_api/
+
 # coverage report
 .coverage
 .coverage.*
