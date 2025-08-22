@@ -5,6 +5,7 @@ description = "pylearn project"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "ipywidgets>=8.1.7",
     "langchain>=0.3.26",
     "langchain-mcp-adapters>=0.1.9",
     "langchain-openai>=0.3.28",
