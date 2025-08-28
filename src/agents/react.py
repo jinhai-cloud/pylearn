@@ -11,10 +11,10 @@ from langgraph.types import interrupt
 load_dotenv()
 
 llm = init_chat_model(
-    "openai:qwen-max",
+    "openai:gpt-5",
     temperature=0,
-    api_key=os.getenv("DASHSCOPE_API_KEY"),
-    base_url=os.getenv("DASHSCOPE_BASE_URL")
+    api_key=os.getenv("OPENAI_API_KEY"),
+    base_url=os.getenv("OPENAI_BASE_URL")
 )
 
 @tool
