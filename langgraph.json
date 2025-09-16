@@ -1,7 +1,8 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "agent": "./src/agents/react.py:make_graph"
+    "chat": "./src/agents/chat.py:graph",
+    "react": "./src/agents/react.py:make_graph"
   },
   "env": ".env",
   "image_distro": "wolfi"

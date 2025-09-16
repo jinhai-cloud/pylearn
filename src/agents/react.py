@@ -12,7 +12,7 @@ load_dotenv()
 
 llm = init_chat_model(
     "openai:gpt-5-mini",
-    temperature=0,
+    temperature=0.6,
     api_key=os.getenv("API_KEY"),
     base_url=os.getenv("BASE_URL")
 )
