@@ -5,18 +5,10 @@ description = "pylearn project"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "datasets>=4.1.0",
-    "ipywidgets>=8.1.7",
-    "langchain>=0.3.26",
-    "langchain-community>=0.3.27",
-    "langchain-mcp-adapters>=0.1.9",
-    "langchain-openai>=0.3.28",
-    "langchain-tavily>=0.2.11",
-    "langgraph>=0.5.3",
-    "litellm>=1.74.8",
-    "notebook>=7.4.4",
-    "numpy>=2.3.1",
-    "pandas>=2.3.0",
-    "pydantic>=2.11.7",
-    "python-dotenv>=1.1.1",
+    "langchain>=1.1.0",
+    "langchain-openai>=1.1.0",
+    "langgraph>=1.0.4",
+    "notebook>=7.4.7",
+    "pydantic>=2.11.10",
+    "python-dotenv>=1.2.1",
 ]
